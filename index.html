@@ -1,0 +1,52 @@
+<html>
+<head>
+    
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    
+  <div id="inn" class="in mt-5 mx-auto text-center shadow-lg d-nonee">
+    <h1 class="pt-5 pb-2">Smart Login System</h1>
+    <input id="inemail" type="text" class="form-control mb-3 mx-auto" placeholder="Enter your email">
+    <input id="inpass" type="password" class="form-control mx-auto mb-4" placeholder="Enter your password">
+    <h6 id="ingreen" class="pb-4 d-none">Success</h6>
+    <h6 id="inred1" class="d-none"></h6>
+    <h6 id="inred2" class="d-none"></h6>
+    <button id="insub" class="btn btn-outline-warning mb-3 me-2">Submit</button>
+    <button id="login" class="btn btn-info mb-3 ">Login</button>
+    <h5 class="pb-5">Don’t have an account?<a id="tosignup"> Sign Up</a></h5>
+  </div>
+
+  <div id="upp" class="up mt-5 mx-auto text-center shadow-lg d-none">
+    <h1 class="pt-5 pb-2">Smart Login System</h1>
+    <input id="upname" type="text" class="form-control mb-3 mx-auto" placeholder="Enter your name">
+    <input id="upemail" type="text" class="form-control mb-3 mx-auto" placeholder="Enter your email">
+    <input id="uppass" type="password" class="form-control mx-auto mb-4" placeholder="Enter your password">
+    <h6 id="upgreen" class="pb-4 d-none">Success</h6>
+    <h6 id="upred1" class="pb-4 d-none">All inputs is required</h6>
+    <h6 id="upred2" class="pb-4 d-none">email already exists</h6>
+    <button id="upsub" class="btn btn-outline-warning mb-3 me-2">Submit</button>
+    <h5 class="pb-5">You have an account?<a id="tosignin"> Sign Up</a></h5>
+  </div>
+
+  <div id="home" class="home shadow-lg d-none">
+    <div class="top w-100 d-flex">
+      <h5 class="offset-1 py-3">SMART LOGIN</h5>
+      <button id="logout" class="btn btn-danger my-3">Logout</button>
+    </div>
+
+    <div class="box shadow-lg text-center">
+      <h1 id="welc" class="py-5"></h1>
+    </div>
+  </div>
+
+
+    <script src="js/all.min.js"></script>    
+    <script src="js/bootstrap.bundle.min.js"></script>    
+    <script src="js/index.js"></script>    
+</body>
+
+</html>

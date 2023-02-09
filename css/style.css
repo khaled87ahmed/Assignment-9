@@ -1,0 +1,62 @@
+:root{
+    --bluee:#17A2B8;
+    --greyy: #24353F;
+}
+
+body,input{
+    font-family: "Titillium Web", sans-serif;
+    background-color: var(--greyy) !important;
+    color: white !important;
+}
+
+.in,.up{
+    width: 55%;
+}
+
+.in input ,.up input{
+    width: 90%;
+}
+
+.in h1 ,.up h1{
+    color: var(--bluee) ;
+}
+
+.in h5,.in a ,.up h5,.up a{
+    color: white ;
+    font-size: medium;
+}
+
+.in a:hover , .up a:hover{
+    cursor: pointer;
+    border-bottom: white solid 3px;
+}
+
+
+#inred1 , #inred2 , #upred1 , #upred2{
+    color: red;
+    font-weight: 600;
+}
+
+#ingreen , #upgreen{
+    color: rgb(7, 165, 7);
+    font-weight: 600;
+}
+
+.top h5{
+    cursor: pointer;
+    width: 80%;
+    color: white;
+}
+
+.box{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box h1{
+    color: var(--bluee);
+}
+
